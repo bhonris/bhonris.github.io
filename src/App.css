@@ -6,17 +6,12 @@
 }
 
 .logo {
-  height: 6em;
+  height: 50em;
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
+
 
 @keyframes logo-spin {
   from {
@@ -37,6 +32,14 @@
   padding: 2em;
 }
 
+.card-button {
+  background-color:#888;
+}
+
 .read-the-docs {
   color: #888;
+}
+
+p {
+  font-size: 2.5em;
 }
