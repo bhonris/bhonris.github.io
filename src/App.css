@@ -1,6 +1,7 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
+  padding: .5rem;
   text-align: center;
 }
 
@@ -11,6 +12,15 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
+.donate-logo {
+  height: 50em;
+  max-height: 55vh;
+  /* padding: 1.5em; */
+  will-change: filter;
+  transition: filter 300ms;
+}
+
 
 .footer {
   position: fixed;

@@ -114,7 +114,7 @@ const page5 = () => {
     <>
       <h1>Donate</h1>
       <div>
-        <img src={promptpay} className="logo" alt="Vite logo" />
+        <img src={promptpay} className="donate-logo" alt="Vite logo" />
       </div>
       <p>
         For other methods of donations or any other questions, please contact me
