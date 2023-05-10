@@ -1,4 +1,4 @@
-import { MouseEventHandler, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import kuhl2 from "./assets/kuhl2.jpg";
 import promptpay from "./assets/promptpay.jpg";
 import "./App.css";
@@ -17,9 +17,22 @@ function App() {
         return page4(page, setPage);
       case 4:
         return page5();
+      default:
+        return page1(page, setPage);
     }
   }, [page]);
-  return showPage;
+  return (
+    <>
+      {showPage}
+      {page !== 4 && (
+        <div className="footer">
+          <button className="donate-button" onClick={() => setPage(4)}>
+            Donate Now
+          </button>
+        </div>
+      )}
+    </>
+  );
 }
 
 const page1 = (page: number, onClick: any) => {
@@ -104,7 +117,8 @@ const page5 = () => {
         <img src={promptpay} className="logo" alt="Vite logo" />
       </div>
       <p>
-        For other methods of donations, please contact me at bunnag.bn@gmail.com
+        For other methods of donations or any other questions, please contact me
+        at bunnag.bn@gmail.com
       </p>
     </>
   );
