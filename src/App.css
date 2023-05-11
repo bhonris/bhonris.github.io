@@ -58,7 +58,9 @@
 .donate-button {
   background-color:slategray;
   width: 100%;
+  font-size:3vh;
 }
+
 .read-the-docs {
   color: #888;
 }
