@@ -113,6 +113,10 @@ const page5 = () => {
   return (
     <>
       <h1>Donate</h1>
+      <p>
+        Please donate to Ross and his family using the following QR code, and
+        e-mail the receipt to bunnag.bn@gmail.com
+      </p>
       <div>
         <img src={promptpay} className="donate-logo" alt="Vite logo" />
       </div>
