@@ -47,7 +47,7 @@
 }
 
 .card {
-  padding: 2em;
+  padding: 0em;
 }
 
 .card-button {
@@ -63,6 +63,10 @@
 
 .read-the-docs {
   color: #888;
+}
+
+h1 {
+  border: 0;
 }
 
 p {
